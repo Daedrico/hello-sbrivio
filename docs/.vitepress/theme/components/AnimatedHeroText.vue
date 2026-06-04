@@ -17,7 +17,7 @@ const { frontmatter } = useData()
 const name = computed(() => frontmatter.value.hero?.name)
 const tagline = computed(() => frontmatter.value.hero?.tagline)
 
-const words = ['Developer', 'Tech Lead', 'Problem Solver']
+const words = ['Developer', 'Tech Lead', 'Problem Solver', 'Loyal servitor of the One True God-Emperor of Mankind']
 const currentIndex = ref(0)
 const currentWord = computed(() => words[currentIndex.value])
 
