@@ -83,7 +83,7 @@ const projects = [
   {
     title: 'SPRR — VS Code Extension',
     description:
-      'Open a .object-meta.xml file, run SPRR: Create report from the Command Palette, and get an interactive table showing all RecordTypes and their enabled picklist values.',
+      'Open a Salesforce .object metadata file, run SPRR: Create report from the Command Palette, and get an interactive table showing all RecordTypes and their enabled picklist values.',
     bullets: [
       'Dropdown to select any picklist field by API name',
       'One column per RecordType',
