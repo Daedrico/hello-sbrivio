@@ -115,6 +115,10 @@
 }
 
 @media (min-width: 960px) {
+  .VPHero.has-image .container {
+    min-height: 420px;
+  }
+
   .VPHero .main .name,
   .VPHero .main .text { line-height: 64px; font-size: 56px; }
   .VPHero.has-image .main .name,
